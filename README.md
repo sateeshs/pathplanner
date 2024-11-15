@@ -53,3 +53,14 @@ https://3015rangerrobotics.github.io/pathplannerlib/PathplannerLib.json
     * macOS: `<PROJECT DIR>/build/macos/Build/Products/Release`
     * Linux: `<PROJECT DIR>/build/linux/x64/release/bundle`
 * OR `flutter run` to run in debug mode
+
+
+### Ubuntu Dependencies 
+* [CMAKE](https://github.com/flutter/flutter/issues/115230)
+    * [ The C++ compiler  "/usr/bin/clang++"
+
+  is not able to compile a simple test program.
+]$ sudo apt install libstdc++-12-dev
+* flutter clean
+* flutter build
+* flutter run -v -d linux
